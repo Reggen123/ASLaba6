@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseASModelStoreContainer" CdmEntityContainer="DataBaseASEntities">
+    <EntitySetMapping Name="Headphones">
+      <EntityTypeMapping TypeName="DataBaseASModel.Headphones">
+        <MappingFragment StoreEntitySet="Headphones">
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="HeadPhone_Id" ColumnName="HeadPhone_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
